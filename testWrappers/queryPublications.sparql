@@ -1,0 +1,28 @@
+SELECT ?title ?
+WHERE {
+    {
+        ?paper swrc:title ?title .
+        ?paper swrc:author ?author .
+        ?author foaf:name "Pascal Molli" .
+    } .
+    OPTIONAL {
+        ?paper swrc:author ?other1 .
+        FILTER (?other1 != ?author)
+    } .
+    OPTIONAL {
+        ?paper swrc:author ?other2 .
+        FILTER (?other2 != ?author && ?other2 != ?other1)
+    } .
+    OPTIONAL {
+        ?paper swrc:author ?other3 .
+        FILTER (?other3 != ?author && ?other3 != ?other1 && ?other3 != ?other2)
+    }
+    OPTIONAL {
+        ?paper swrc:author ?other4 .
+        FILTER (?other4 != ?author && ?other4 != ?other1 && ?other4 != ?other2 && ?other4 != ?other3)
+    }
+    OPTIONAL {
+        ?paper swrc:author ?other5 .
+        FILTER (?other5 != ?author && ?other5 != ?other1 && ?other5 != ?other2 && ?other5 != ?other3 && ?other5 != ?other4)
+    }
+}

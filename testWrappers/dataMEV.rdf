@@ -1,0 +1,662 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:map="file:///home/diederich/d2r-server-0.3.2/dblp-mapping.n3#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:d2r="http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:swrc="http://swrc.ontoware.org/ontology#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/journals/procedia/BlancoCV12">
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Yudith_Cardinale">
+        <foaf:name>Yudith Cardinale</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal">
+        <foaf:name>Maria-Esther Vidal</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/ant/2012">
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Proceedings of the 3rd International Conference on Ambient Systems, Networks and Technologies (ANT 2012), the 9th International Conference on Mobile Web Information Systems (MobiWIS-2012), Niagara Falls, Ontario, Canada, August 27-29, 2012</dc:title>
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >10</swrc:volume>
+      </rdf:Description>
+    </dcterms:partOf>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A Non-Chronological Backtracking Unfolding Algorithm for Transactional Web Service Composition.</dc:title>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2012</dcterms:issued>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Eduardo_Blanco">
+        <foaf:name>Eduardo Blanco</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >888-893</swrc:pages>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/otm/GoncalvesV12">
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Marlene_Goncalves">
+        <foaf:name>Marlene Goncalves</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2012</dcterms:issued>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/otm/2012-w">
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >7567</swrc:volume>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >On the Move to Meaningful Internet Systems: OTM 2012 Workshops, Confederated International Workshops: OTM Academy, Industry Case Studies Program, EI2N, INBAST, META4eS, OnToContent, ORM, SeDeS, SINCOM, and SOMOCO 2012, Rome, Italy, September 10-14, 2012. Proceedings</dc:title>
+      </rdf:Description>
+    </dcterms:partOf>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >673-676</swrc:pages>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Efficiently Producing the K Nearest Neighbors in the Skyline for Multidimensional Datasets.</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/dexa/GoncalvesV05">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2005</dcterms:issued>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Marlene_Goncalves"/>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/dexa/2005">
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Database and Expert Systems Applications, 16th International Conference, DEXA 2005, Copenhagen, Denmark, August 22-26, 2005, Proceedings</dc:title>
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >3588</swrc:volume>
+      </rdf:Description>
+    </dcterms:partOf>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >375-384</swrc:pages>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Preferred Skyline: A Hybrid Approach Between SQLf and Skyline.</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/globe/LacroixVL09">
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Christophe_Legendre">
+        <foaf:name>Christophe Legendre</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/globe/2009">
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Data Management in Grid and Peer-to-Peer Systems, Second International Conference, Globe 2009, Linz, Austria, September 1-2, 2009, Proceedings</dc:title>
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >5697</swrc:volume>
+      </rdf:Description>
+    </dcterms:partOf>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Zo%C3%A9_Lacroix">
+        <foaf:name>Zoé Lacroix</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Customized and Optimized Service Selection with ProtocolDB.</dc:title>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2009</dcterms:issued>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >112-123</swrc:pages>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/dils/LacroixPVCM05">
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Natalia_Marquez">
+        <foaf:name>Natalia Marquez</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Marelis_Cardenas">
+        <foaf:name>Marelis Cardenas</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Kaushal_Parekh">
+        <foaf:name>Kaushal Parekh</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Zo%C3%A9_Lacroix"/>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BioNavigation: Selecting Optimum Paths Through Biological Resources to Evaluate Ontological Navigational Queries.</dc:title>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/dils/2005">
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Data Integration in the Life Sciences, Second InternationalWorkshop, DILS 2005, San Diego, CA, USA, July 20-22, 2005, Proceedings</dc:title>
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >3615</swrc:volume>
+      </rdf:Description>
+    </dcterms:partOf>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2005</dcterms:issued>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >275-283</swrc:pages>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/edbt/VaradarajanHRVIR09">
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/H%C3%A9ctor_Rodr%C3%ADguez-Drumond">
+        <foaf:name>Héctor Rodríguez-Drumond</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Louiqa_Raschid">
+        <foaf:name>Louiqa Raschid</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Ramakrishna_Varadarajan">
+        <foaf:name>Ramakrishna Varadarajan</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Vagelis_Hristidis">
+        <foaf:name>Vagelis Hristidis</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2009</dcterms:issued>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >553-564</swrc:pages>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Luis_Daniel_Ib%C3%A1%C3%B1ez">
+        <foaf:name>Luis Daniel Ibáñez</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Flexible and efficient querying and ranking on hyperlinked data sources.</dc:title>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/edbt/2009">
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >360</swrc:volume>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >EDBT 2009, 12th International Conference on Extending Database Technology, Saint Petersburg, Russia, March 24-26, 2009, Proceedings</dc:title>
+      </rdf:Description>
+    </dcterms:partOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/otm/AyadiLVR07">
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Edna_Ruckhaus">
+        <foaf:name>Edna Ruckhaus</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Zo%C3%A9_Lacroix"/>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2007</dcterms:issued>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >1338-1347</swrc:pages>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Nadia_Yacoubi_Ayadi">
+        <foaf:name>Nadia Yacoubi Ayadi</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/otm/2007-w2">
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >On the Move to Meaningful Internet Systems 2007: OTM 2007 Workshops, OTM Confederated International Workshops and Posters, AWeSOMe, CAMS, OTM Academy Doctoral Consortium, MONET, OnToContent, ORM, PerSys, PPN, RDDS, SSWS, and SWWS 2007, Vilamoura, Portugal, November 25-30, 2007, Proceedings, Part II</dc:title>
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >4806</swrc:volume>
+      </rdf:Description>
+    </dcterms:partOf>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Deductive Web Services: An Ontology-Driven Approach for Service Interoperability in Life Science.</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/otm/LampoVDR11">
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Edna_Ruckhaus"/>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Juan_Danilow">
+        <foaf:name>Juan Danilow</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >To Cache or Not To Cache: The Effects of Warming Cache in Complex SPARQL Queries.</dc:title>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >716-733</swrc:pages>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2011</dcterms:issued>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/otm/2011-2">
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >7045</swrc:volume>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >On the Move to Meaningful Internet Systems: OTM 2011 - Confederated International Conferences: CoopIS, DOA-SVI, and ODBASE 2011, Hersonissos, Crete, Greece, October 17-21, 2011, Proceedings, Part II</dc:title>
+      </rdf:Description>
+    </dcterms:partOf>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Tomas_Lampo">
+        <foaf:name>Tomas Lampo</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/red/AmannBLV10">
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Zo%C3%A9_Lacroix"/>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Laure_Berti-Equille">
+        <foaf:name>Laure Berti-Equille</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2010</dcterms:issued>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/red/2010">
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Resource Discovery - Third International Workshop, RED 2010, Paris, France, November 5, 2010, Revised Selected Papers</dc:title>
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >6799</swrc:volume>
+      </rdf:Description>
+    </dcterms:partOf>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Bernd_Amann">
+        <foaf:name>Bernd Amann</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >181-189</swrc:pages>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Challenges of Quality-Driven Resource Discovery.</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/esws/VidalRLMSP10">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2010</dcterms:issued>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/esws/2010-1">
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >The Semantic Web: Research and Applications, 7th Extended Semantic Web Conference, ESWC 2010, Heraklion, Crete, Greece, May 30 - June 3, 2010, Proceedings, Part I</dc:title>
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >6088</swrc:volume>
+      </rdf:Description>
+    </dcterms:partOf>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Efficiently Joining Group Patterns in SPARQL Queries.</dc:title>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Javier_Sierra">
+        <foaf:name>Javier Sierra</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Amad%C3%ADs_Mart%C3%ADnez">
+        <foaf:name>Amadís Martínez</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Tomas_Lampo"/>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >228-242</swrc:pages>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Edna_Ruckhaus"/>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Axel_Polleres">
+        <foaf:name>Axel Polleres</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/otm/GoncalvesVCVA12">
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Maribel_Acosta">
+        <foaf:name>Maribel Acosta</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Luis_Vidal">
+        <foaf:name>Luis Vidal</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Francisco_Castro">
+        <foaf:name>Francisco Castro</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Marlene_Goncalves"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2012</dcterms:issued>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >298-301</swrc:pages>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ranking and Clustering Techniques to Support an Efficient E-Democracy.</dc:title>
+    <dcterms:partOf rdf:resource="http://dblp.l3s.de/d2r/resource/publications/conf/otm/2012-w"/>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/semweb/IzquierdoVB10">
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Blai_Bonet">
+        <foaf:name>Blai Bonet</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2010</dcterms:issued>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Daniel_Izquierdo">
+        <foaf:name>Daniel Izquierdo</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >386-401</swrc:pages>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/semweb/2010-1">
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >6496</swrc:volume>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >The Semantic Web - ISWC 2010 - 9th International Semantic Web Conference, ISWC 2010, Shanghai, China, November 7-11, 2010, Revised Selected Papers, Part I</dc:title>
+      </rdf:Description>
+    </dcterms:partOf>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An Expressive and Efficient Solution to the Service Selection Problem.</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/otm/TovarV08">
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >1338-1354</swrc:pages>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2008</dcterms:issued>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Magic Rewritings for Efficiently Processing Reactivity on Web Ontologies.</dc:title>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/otm/2008-2">
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >5332</swrc:volume>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >On the Move to Meaningful Internet Systems: OTM 2008, OTM 2008 Confederated International Conferences, CoopIS, DOA, GADA, IS, and ODBASE 2008, Monterrey, Mexico, November 9-14, 2008, Proceedings, Part II</dc:title>
+      </rdf:Description>
+    </dcterms:partOf>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Elsa_Liliana_Tovar">
+        <foaf:name>Elsa Liliana Tovar</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/dils/LacroixRV04">
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Louiqa_Raschid"/>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Zo%C3%A9_Lacroix"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2004</dcterms:issued>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Efficient Techniques to Explore and Rank Paths in Life Science Data Sources.</dc:title>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/dils/2004">
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >2994</swrc:volume>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Data Integration in the Life Sciences, First International Workshop, DILS 2004, Leipzig, Germany, March 25-26, 2004, Proceedings</dc:title>
+      </rdf:Description>
+    </dcterms:partOf>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >187-202</swrc:pages>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/red/BlancoCVHMR10">
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A Transactional-QoS Driven Approach for Web Service Composition.</dc:title>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Marta_Rukoz">
+        <foaf:name>Marta Rukoz</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2010</dcterms:issued>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Eduardo_Blanco"/>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Joyce_El_Haddad">
+        <foaf:name>Joyce El Haddad</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dcterms:partOf rdf:resource="http://dblp.l3s.de/d2r/resource/publications/conf/red/2010"/>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Maude_Manouvrier">
+        <foaf:name>Maude Manouvrier</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >23-42</swrc:pages>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Yudith_Cardinale"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/otm/TovarV10">
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/otm/2010-2">
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >On the Move to Meaningful Internet Systems, OTM 2010 - Confederated International Conferences: CoopIS, IS, DOA and ODBASE, Hersonissos, Crete, Greece, October 25-29, 2010, Proceedings, Part II</dc:title>
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >6427</swrc:volume>
+      </rdf:Description>
+    </dcterms:partOf>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Elsa_Liliana_Tovar"/>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Expressing and Managing Reactivity in the Semantic Web.</dc:title>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >1018-1035</swrc:pages>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2010</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/semweb/AcostaVLCR11">
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Edna_Ruckhaus"/>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Julio_Castillo">
+        <foaf:name>Julio Castillo</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Tomas_Lampo"/>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maribel_Acosta"/>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >18-34</swrc:pages>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ANAPSID: An Adaptive Query Processing Engine for SPARQL Endpoints.</dc:title>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2011</dcterms:issued>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/semweb/2011-1">
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >7031</swrc:volume>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >The Semantic Web - ISWC 2011 - 10th International Semantic Web Conference, Bonn, Germany, October 23-27, 2011, Proceedings, Part I</dc:title>
+      </rdf:Description>
+    </dcterms:partOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/dils/BenikCRVPT12">
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Guillermo_Palma">
+        <foaf:name>Guillermo Palma</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Andreas_Thor">
+        <foaf:name>Andreas Thor</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Joseph_Benik">
+        <foaf:name>Joseph Benik</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >21-36</swrc:pages>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Finding Cross Genome Patterns in Annotation Graphs.</dc:title>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2012</dcterms:issued>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Caren_Chang">
+        <foaf:name>Caren Chang</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/dils/2012">
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Data Integration in the Life Sciences - 8th International Conference, DILS 2012, College Park, MD, USA, June 28-29, 2012. Proceedings</dc:title>
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >7348</swrc:volume>
+      </rdf:Description>
+    </dcterms:partOf>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Louiqa_Raschid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/otm/AcostaGV11">
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Marlene_Goncalves"/>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CAREY: ClimAtological ContRol of EmergencY Regions.</dc:title>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/otm/2011-w">
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >7046</swrc:volume>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >On the Move to Meaningful Internet Systems: OTM 2011 Workshops - Confederated International Workshops and Posters: EI2N+NSF ICE, ICSP+INBAST, ISDE, ORM, OTMA, SWWS+MONET+SeDeS, and VADER 2011, Hersonissos, Crete, Greece, October 17-21, 2011. Proceedings</dc:title>
+      </rdf:Description>
+    </dcterms:partOf>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maribel_Acosta"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2011</dcterms:issued>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >494-503</swrc:pages>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/esws/VidalRMRR10">
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Edna_Ruckhaus"/>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Jean_Carlo_Rivera">
+        <foaf:name>Jean Carlo Rivera</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Natalia_Marquez"/>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Louiqa_Raschid"/>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BioNav: An Ontology-Based Framework to Discover Semantic Links in the Cloud of Linked Data.</dc:title>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >441-445</swrc:pages>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/esws/2010-2">
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >6089</swrc:volume>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >The Semantic Web: Research and Applications, 7th Extended Semantic Web Conference, ESWC 2010, Heraklion, Crete, Greece, May 30 - June 3, 2010, Proceedings, Part II</dc:title>
+      </rdf:Description>
+    </dcterms:partOf>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2010</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/dexa/GoncalvesV09">
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Marlene_Goncalves"/>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Reaching the Top of the Skyline: An Efficient Indexed Algorithm for Top-k Skyline Queries.</dc:title>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/dexa/2009">
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Database and Expert Systems Applications, 20th International Conference, DEXA 2009, Linz, Austria, August 31 - September 4, 2009. Proceedings</dc:title>
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >5690</swrc:volume>
+      </rdf:Description>
+    </dcterms:partOf>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2009</dcterms:issued>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >471-485</swrc:pages>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/semweb/MontoyaVCRA12">
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Carlos_Buil_Aranda">
+        <foaf:name>Carlos Buil Aranda</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Edna_Ruckhaus"/>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/%C3%93scar_Corcho">
+        <foaf:name>Óscar Corcho</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Gabriela_Montoya">
+        <foaf:name>Gabriela Montoya</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >313-324</swrc:pages>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/semweb/2012-2">
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >The Semantic Web - ISWC 2012 - 11th International Semantic Web Conference, Boston, MA, USA, November 11-15, 2012, Proceedings, Part II</dc:title>
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >7650</swrc:volume>
+      </rdf:Description>
+    </dcterms:partOf>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Benchmarking Federated SPARQL Query Engines: Are Existing Testbeds Enough?</dc:title>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2012</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/otm/GoncalvesV05">
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Marlene_Goncalves"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2005</dcterms:issued>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/otm/2005-1">
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >3762</swrc:volume>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >On the Move to Meaningful Internet Systems 2005: OTM 2005 Workshops, OTM Confederated International Workshops and Posters, AWeSOMe, CAMS, GADA, MIOS+INTEROP, ORM, PhDS, SeBGIS, SWWS, and WOSE 2005, Agia Napa, Cyprus, October 31 - November 4, 2005, Proceedings</dc:title>
+      </rdf:Description>
+    </dcterms:partOf>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >790-799</swrc:pages>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Top-k Skyline: A Unified Approach.</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/otm/AyadiLV08">
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Zo%C3%A9_Lacroix"/>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Nadia_Yacoubi_Ayadi"/>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >998-1009</swrc:pages>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/otm/2008-w">
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >On the Move to Meaningful Internet Systems: OTM 2008 Workshops, OTM Confederated International Workshops and Posters, ADI, AWeSoMe, COMBEK, EI2N, IWSSA, MONET, OnToContent + QSI, ORM, PerSys, RDDS, SEMELS, and SWWS 2008, Monterrey, Mexico, November 9-14, 2008. Proceedings</dc:title>
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >5333</swrc:volume>
+      </rdf:Description>
+    </dcterms:partOf>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2008</dcterms:issued>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A Deductive Approach for Resource Interoperability and Well-Defined Workflows.</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/red/GoncalvesVRA09">
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Nadia_Yacoubi_Ayadi"/>
+    <dc:creator>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/authors/Alfredo_Regalado">
+        <foaf:name>Alfredo Regalado</foaf:name>
+      </rdf:Description>
+    </dc:creator>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Maria-Esther_Vidal"/>
+    <swrc:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >120-139</swrc:pages>
+    <dc:creator rdf:resource="http://dblp.l3s.de/d2r/resource/authors/Marlene_Goncalves"/>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Efficiently Selecting the Best Web Services.</dc:title>
+    <dcterms:partOf>
+      <rdf:Description rdf:about="http://dblp.l3s.de/d2r/resource/publications/conf/red/2009">
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Resource Discovery, Second International Workshop, RED 2009, Lyon, France, August 28, 2009. Revised Papers</dc:title>
+        <swrc:volume rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >6162</swrc:volume>
+      </rdf:Description>
+    </dcterms:partOf>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear"
+    >2009</dcterms:issued>
+  </rdf:Description>
+</rdf:RDF>

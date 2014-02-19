@@ -1,0 +1,4 @@
+<http://dbpedia.org/resource/Richard_Coke> <http://example.org/type> <http://dbpedia.org/ontology/President> .
+<http://dbpedia.org/resource/Richard_Coke> <http://dbpedia.org/ontology/party> <http://dbpedia.org/resource/Democratic_Party_(United_States)> .
+<http://dbpedia.org/resource/Richard_Coke> <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Richard_Coke> <http://www.w3.org/2000/01/rdf-schema#label> "Ulysses S. Grant"@en .

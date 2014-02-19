@@ -1,0 +1,8 @@
+PREFIX ex:<http://example.org/hotel/>
+SELECT * WHERE {
+    ?Hotel ex:hasName ?Name .
+    ?Hotel ex:hasPostalCode ?PC .
+    ?Hotel ex:hasAddress ?Address .
+    ?Hotel ex:hasWebSite ?WebSite .
+    ?Hotel ex:hasMail ?Mail .
+}

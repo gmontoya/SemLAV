@@ -1,0 +1,6 @@
+base	ID
+http://example.org/hotel/hasName	geo.name
+http://example.org/hotel/hasPostalCode	CP
+http://example.org/hotel/hasAddress	ADR_1
+http://example.org/hotel/hasWebSite	WEB_1
+http://example.org/hotel/hasMail	MEL_1

@@ -1,0 +1,16 @@
+SELECT ?title (GROUP_CONCAT(?name) AS ?authors) ?conferenceName ?volumen ?pages ?year
+WHERE {
+    ?paper dc:title ?title .
+    ?paper dc:creator ?author1 .
+    ?author1 foaf:name "Maria-Esther Vidal" .
+    ?paper dc:creator ?author2 .
+    ?author2 foaf:name ?name .
+    ?paper dcterms:partOf ?conference .
+    ?conference dc:title ?conferenceName .
+    ?paper swrc:pages ?pages .
+    ?paper dcterms:issued ?year .
+    ?conference swrc:volume ?volumen .
+}
+GROUP BY ?paper
+ORDER BY DESC(?year)
+

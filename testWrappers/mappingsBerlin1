@@ -1,0 +1,4 @@
+http://example.org/label	http://www.w3.org/2000/01/rdf-schema#label
+http://example.org/type	http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://example.org/feature	http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature
+http://example.org/ProductType3	http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductType3

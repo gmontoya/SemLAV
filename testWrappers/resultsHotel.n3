@@ -1,0 +1,5 @@
+<http://example.org/hotel/1> <http://example.org/hotel/hasName> "LE BRETAGNE" .
+<http://example.org/hotel/1> <http://example.org/hotel/hasMail> "contact@lebretagne.net" .
+<http://example.org/hotel/1> <http://example.org/hotel/hasPostalCode> "44410" .
+<http://example.org/hotel/1> <http://example.org/hotel/hasWebSite> "www.lebretagne.net" .
+<http://example.org/hotel/1> <http://example.org/hotel/hasAddress> "33 rue du Mes" .

@@ -1,0 +1,8 @@
+PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?president ?party ?page WHERE {
+   ?president <http://example.org/type> <http://dbpedia.org/ontology/President> .
+   ?president <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/United_States> .
+   ?president <http://dbpedia.org/ontology/party> ?party .
+   ?president rdfs:label "Ulysses S. Grant"@en
+}

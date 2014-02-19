@@ -1,0 +1,5 @@
+SELECT DISTINCT ?president ?party ?page WHERE {
+   ?president <http://example.org/type> <http://dbpedia.org/ontology/President> .
+   ?president <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/United_States> .
+   ?president <http://dbpedia.org/ontology/party> ?party .
+}
