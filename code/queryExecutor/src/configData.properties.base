@@ -1,0 +1,19 @@
+# input
+dataSetFile=SemLAVPATH/expfiles/berlinData/datasets/dataset1.nt
+indexesFolder=SemLAVPATH/expfiles/berlinData/sparqlIndexes
+#queriesFolder=SemLAVPATH/expfiles/berlinData/originalSparqlQueriesInstantiated
+queriesFolder=SemLAVPATH/expfiles/berlinData/sparqlQueries
+factor=34
+n=15
+# output data
+sparqlViewsFolder=SemLAVPATH/expfiles/berlinData/DATASET/75views/viewsSparql
+n3ViewsFolder=SemLAVPATH/expfiles/berlinData/DATASET/75views/viewsN3
+n3ViewsFolderIn=SemLAVPATH/expfiles/berlinData/DATASET/75views/viewsN3
+n3ViewsFolderOut=SemLAVPATH/expfiles/berlinData/DATASET/75views/viewsInstantiatedN3
+answersFolder=SemLAVPATH/expfiles/berlinData/DATASET/answersOriginalQueries
+# output mappings
+mappingsFile=SemLAVPATH/expfiles/berlinData/DATASET/75views/mappingsBerlin
+conjunctiveQueriesFolder=SemLAVPATH/expfiles/berlinData/conjunctiveQueries
+constantsFile=SemLAVPATH/expfiles/berlinData/DATASET/75views/constantsFile
+#n3OntologyFile=SemLAVPATH/expfiles/berlinData/ontology.n3
+#ontologyFile=SemLAVPATH/expfiles/berlinData/ontology

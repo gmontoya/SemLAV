@@ -1,0 +1,14 @@
+#querypath=SemLAVPATH/expfiles/berlinData/originalSparqlQueriesInstantiated/query18.sparql
+querypath=SemLAVPATH/expfiles/berlinData/sparqlQueries/query18.sparql
+#querypath=QUERY
+output=OUTPUT
+path=SemLAVPATH/expfiles/
+queryResults=berlinOutput/DATASET/300views/outputSemLAVquery18_MEMSIZE_exec1
+groundTruth=berlinData/DATASET/answers/query18
+mappingsn3=berlinData/DATASET/300views/viewsN3/
+mappingssparql=berlinData/DATASET/300views/viewsSparql/
+constants=SemLAVPATH/expfiles/berlinData/DATASET/300views/constantsFile
+contactsources=false
+timeout=TIMEOUT
+sorted=true
+testing=true

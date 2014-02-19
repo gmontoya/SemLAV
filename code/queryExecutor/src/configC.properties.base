@@ -1,0 +1,15 @@
+path=SemLAVPATH/expfiles/
+querypath=SemLAVPATH/expfiles/berlinData/sparqlQueries/query9.sparql
+conjunctiveQuery=SemLAVPATH/expfiles/berlinData/conjunctiveQueries/query9
+mappingsn3=berlinData/DATASET/75views/viewsN3/
+mappingssparql=berlinData/DATASET/75views/viewsSparql/
+mappings=berlinData/DATASET/75views/mappingsBerlin
+contactsources=false
+jointype=JENA
+groundTruth=berlinData/DATASET/answers/query9
+experiments=NOTHING
+numberviews=75
+rewriter=mcdsat
+constants=SemLAVPATH/expfiles/berlinData/DATASET/300views/constantsFile
+queryresults=berlinOutput/DATASET/75views/outputquery9_MEMSIZE_exec1
+timeout=TIMEOUT

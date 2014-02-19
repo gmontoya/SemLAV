@@ -1,0 +1,218 @@
+Operating System
+----------------
+Currently, the execution engines and data generation work without any known
+problems under Linux.
+
+How to use SemLAV
+-----------------
+Consider that the variable SemLAVPATH have the path to the folder where these 
+instructions are.
+
+What do you need?
+-----------------
+- Queries in SPARQL
+- View Definitions in SPARQL
+- .n3 files that contains the information of each view (see 3, if you don't have these).
+- Queries answers, and a file that contains the answer size for each query 
+  (see 2, if you don't have these).
+- If you want to execute the rewriting-based LAV engine you will need also 
+conjunctive queries and mappings for the views (see 1, if you don't have these).
+Moreover you should verify that MCDSAT works well in your machine, you can find
+MCDSAT in $SemLAVPATH/mcdsat/, read $SemLAVPATH/mcdsat/README for details.
+- If you want to execute FULL SPARQL queries, see 6.
+- If your queries include constants see 4 (but for FULL SPARQL queries see 6 first)
+- If you want to reproduce the results reported in the paper, notice that you should
+consider only queries and views without constants (you will need to remove view8 
+from the files provided, or the associated views to view8: view239 to view272, from
+the mappingBerlin and sparql generated files).
+
+Configuration
+-------------
+See the files: $SemLAVPATH/queryExecutor/src/configData.properties.base (data generation), 
+$SemLAVPATH/queryExecutor/src/configC.properties.base (Rewriting-based approach) and 
+$SemLAVPATH/queryExecutor/src/configD.properties.base (SemLAV), 
+and organize the files according to this; or if you prefer other file organization, change 
+this file according to that. Note that some paths depend on SemLAVPATH variable that 
+is changed from runBerlinSemLAV.sh script (you also should change this if you want)
+
+Expected file organization for tests:
+$SemLAVPATH/expfiles/berlinData/datasets/dataset.n3  (needed for generating the views' files, and query answers)
+$SemLAVPATH/expfiles/berlinData/sparqlQueries/queryi.sparql 
+$SemLAVPATH/expfiles/berlinData/sparqlIndexes/viewj.sparql (needed for generating views definitions and instantiations)
+$SemLAVPATH/expfiles/berlinData/conjunctiveQueries/queryi (needed for executing the rewriting-based LAV engine)
+$SemLAVPAT/expfiles/berlinData/DATASET/answers/queryi (query answers' for all queries)
+$SemLAVPATH/expfiles/berlinData/DATASET/answersSize (needed for processing results)
+$SemLAVPATH/expfiles/berlinData/DATASET/SETUP/constantsFile (needed for executing the rewriting-based LAV engine)
+$SemLAVPATH/expfiles/berlinData/DATASET/SETUP/mappingsBerlin (needed for executing the rewriting-based LAV engine)
+$SemLAVPATH/expfiles/berlinData/DATASET/SETUP/viewsN3/viewj.n3 (view instantiation for all view definitions)
+$SemLAVPATH/expfiles/berlinData/DATASET/SETUP/viewsSparql/viewj.sparql (view definition for all view definitions)
+$SemLAVPATH/expfiles/berlinOutput/DATASET/SETUP (for each combination of DATASET/SETUP)
+Where DATASET and SETUP corresponds to the dataset and setup you want to execute, 
+for example DATASET could be TenMillions and SETUP could be 510views
+
+Compilation:
+-----------
+from $SemLAVPATH/queryExecutor/src/:
+javac -cp ".:../lib2/*" semLAV/*.java
+javac -cp ".:../lib2/*" *.java
+
+SemLAV Execution
+----------------
+Open the file $SemLAVPATH/queryExecutor/src/runBerlinSemLAV.sh, and modify it according
+to the experiment to want to run.
+The variables SETUP and QUERIES indicate which setups and queries you want to run.
+For example, if you want to run query 4 with 75 and 510 views setups, these should be
+set as:
+SETUPS="75views 510views"
+QUERIES="4"
+or if you want to run queries 1 to 18 with the 150 setup as:
+SETUPS="150views"
+QUERIES=`seq 1 18`
+
+from $SemLAVPATH/queryExecutor/src/, use the script as:
+source runBerlinSemLAV.sh
+
+the results can be found in $SemLAVPATH/expfiles/berlinOutput/DATASET/SETUP
+
+Rewriting-based LAV engine Execution
+------------------------------------
+
+Open the file $SemLAVPATH/queryExecutor/src/runBerlinRWLAV.sh, and modify it according
+to the experiment to want to run.
+The variables SETUP and QUERIES indicate which setups and queries you want to run.
+For example, if you want to run query 4 with 75 and 300 views setups, these should be
+set as:
+SETUPS="75views 300views"
+QUERIES="4"
+or if you want to run queries 1 to 18 with the 150 setup as:
+SETUPS="150views"
+QUERIES=`seq 1 18`
+You can also modify the DATASET, MEMSIZE, TIMEOUT or REWRITERS variables to configurate
+you experiments, to indicate the dataset you are using, the java heap size you
+want to use in the experiments and the timeout in milliseconds for each query
+execution. For example:
+DATASET=TenMillions
+MEMSIZE=2048m
+TIMEOUT=600000
+REWRITERS="gqr minicon"
+
+from $SemLAVPATH/queryExecutor/src/, use the script as:
+source runBerlinRWLAV.sh
+
+the results can be found in $SemLAVPATH/expfiles/berlinOutput/DATASET/SETUP
+
+Note: to make the execution with GQR, you should include GQR code 
+in $SemLAVPATH/GQR. To execute from our code we use a simple script like:
+
+mappings=$1
+query=$2
+maximalNumberViews=476
+
+java -XX:MaxHeapSize=20480m -cp "$SemLAVPATH/GQR/GQR:$SemLAVPATH/GQR/GQR/gqr.jar" Run $maximalNumberViews $mappings $query
+
+that we included in: $SemLAVPATH/GQR/GQR:$SemLAVPATH/GQR/GQR/gqr.sh
+
+(0) Transforming queries and views in the MCDSAT accepted format
+----------------------------------------------------------------
+From $SemLAVPATH/queryExecutor/src/, execute:
+java transformMCDSATFormat $SemLAVPATH/expfiles/berlinData/sparqlQueries/query${i}.sparql /tmp/query${i}.sparql
+mv /tmp/query${i}.sparql $SemLAVPATH/expfiles/berlinData/sparqlQueries/query${i}.sparql
+java transformMCDSATFormat $SemLAVPATH/expfiles/berlinData/sparqlIndexes/view${j}.sparql /tmp/view${j}.sparql
+mv /tmp/view${j}.sparql $SemLAVPATH/expfiles/berlinData/sparqlQueries/view${j}.sparql
+for all the queries and views.
+
+(1) Generating the conjunctive queries and mappings files
+---------------------------------------------------------
+
+For using MCDSAT it is required that the variables are taken from {X1,..,Xn},
+i.e., the variable name should be Xi, where i corresponds to a positive
+integer. If the SPARQL queries and views that you want to use does not
+follow this format see (0).
+
+From $SemLAVPATH/queryExecutor/src/, use the script:
+source runGenerateMappings.sh
+
+Modify the script according to the experiment.
+Variable FACTOR indicates in how many parts you want to horizontally partition
+each view described in $SemLAVPATH/expfiles/berlinData/sparqlIndexes/, if you
+do not want to partition, just set this variable to 1.
+
+(2) Generating queries answers
+------------------------------
+Considering that you have the dataset file in 
+$SemLAVPATH/expfiles/berlinData/datasets/, if you do not have the
+dataset file see (5).
+From $SemLAVPATH/queryExecutor/src/, use the script:
+source runGenerateAnswers.sh
+
+Modify the script according to the experiment.
+Variable FACTOR indicates in how many parts you want to horizontally partition
+each view described in $SemLAVPATH/expfiles/berlinData/sparqlIndexes/, if you
+do not want to partition, just set this variable to 1.
+This script uses the script $SemLAVPATH/expfiles/scripts/sortFolder.sh that
+uses folder /tmp/ to as temporary store to sorted answers.
+This script could take a long time if the dataset is large, 
+and could exhaust you machine resources.
+
+(3) Generating the .n3 files for views
+--------------------------------------
+Considering that you have the dataset file in 
+$SemLAVPATH/expfiles/berlinData/datasets/, if you do not have the
+dataset file see (5).
+From $SemLAVPATH/queryExecutor/src/, use the script:
+source runGenerateViews.sh
+
+Modify the script according to the experiment.
+Variable FACTOR indicates in how many parts you want to horizontally partition
+each view described in $SemLAVPATH/expfiles/berlinData/sparqlIndexes/, if you
+do not want to partition, just set this variable to 1.
+
+This script could take a long time if the dataset is large, 
+and could exhaust you machine resources.
+
+(4) Generating instantiated views
+---------------------------------
+You already have the .n3 of the views, but if your queries include constants
+you also will need to generated the instantiated views since the wrapper are
+currently implemented as file readers.
+From $SemLAVPATH/queryExecutor/src/, run the scripts:
+source runBerlinObtainRV.sh
+source findViewInstantiations.sh
+source runGenerateViewsInstantiated.sh
+
+Change the script to setup the experiment to want to run. If necessary 
+modify the file $SemLAVPATH/queryExecutor/src/configD.properties.base
+to indicate the folder that contains the queries and views.
+
+these script will find the relevant views, select the views instantiations 
+for which is needed to generate .n3 files, and generate them.
+
+The last script could take a long time if the dataset is large.
+
+(5) Generating the dataset file with Berlin Benchmark
+-----------------------------------------------------
+Download the Berlin Benchmark generator, contained in bsbmtools-v0.2.zip,
+avalaible in http://sourceforge.net/projects/bsbmtools/files/bsbmtools/bsbmtools-0.2/
+(last visit 25th january 2013).
+
+Decompress it, and in its top directory, execute:
+java -cp ".:lib/*" benchmark.generator.Generator -fc -pc N
+
+Where N is the number of products you want to include in your dataset,
+If N is 3250 the dataset will have a million of triples.
+If N is 28211 the dataset will have ten millions of triples.
+the generated dataset will be in the dataset.nt file.
+Now you can put it in $SemLAVPATH/expfiles/berlinData/datasets/ with the dataset name.
+For example: datasetTenMillions.n3.
+
+(6) Executing full SPARQL queries
+---------------------------------
+For the execution, only SemLAV handles these queries.
+Before generating the instantiated views or execution, generate the constants file.
+From $SemLAVPATH/queryExecutor/src/, execute:
+java -cp ".:../lib2/*" obtainConstants QUERIESFOLDER VIEWSFOLDER $SemLAVPATH/expfiles/berlinData/DATASET/SETUP/constantsFile
+where QUERIESFOLDER and VIEWSFOLDER are set to suitable values. For example:
+java -cp ".:../lib2/*" obtainConstants $SemLAVPATH/expfiles/berlinData/originalSparqlQueriesInstantiated $SemLAVPATH/expfiles/berlinData/DATASET/SETUP/viewsSparql $SemLAVPATH/expfiles/berlinData/DATASET/SETUP/constantsFile
+See (4) to generate the instantiated views.
+Modify the file $SemLAVPATH/queryExecutor/src/configD.properties.base
+to indicate the folder that contains the queries and views.
